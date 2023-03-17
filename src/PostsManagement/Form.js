@@ -23,7 +23,6 @@ export default function Form({ onSubmit }) {
 
 const FormContainer = styled.form`
   position: relative;
-  /* display: flex; */
   align-items: center;
 
   input {

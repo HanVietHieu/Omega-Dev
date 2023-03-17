@@ -12,7 +12,6 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 import Dasboard from "..";
-import SubMenu from "../../SubMenu";
 
 ChartJS.register(
   CategoryScale,

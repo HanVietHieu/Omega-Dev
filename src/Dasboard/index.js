@@ -26,6 +26,7 @@ export default function Dasboard() {
 
 const DasboardContainer = styled.div`
   margin-bottom: 30px;
+
   a {
     color: gray;
     border: 1px solid #141414;
@@ -33,6 +34,7 @@ const DasboardContainer = styled.div`
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
   }
+
   .subcription {
     background-color: var(--orange);
     color: white;
