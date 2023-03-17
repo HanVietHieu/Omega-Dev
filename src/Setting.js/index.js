@@ -81,7 +81,7 @@ export default function Setting() {
           onChange={(date) => handleChangeDate(date)}
         />
       </div>
-      {(email !== "" || title !== "" || isDisableButton) && (
+      {(email || title || isDisableButton) && (
         <button
           type="submit"
           className="button-submit bg-orange color-white mt-4"
