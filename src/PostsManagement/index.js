@@ -85,7 +85,7 @@ export default function PostsManagement() {
           </tr>
         </thead>
         <tbody>
-          {result[currentPage - 1] &&
+          {result[currentPage - 1] ? (
             result[currentPage - 1].map((item, index) => (
               <tr key={index}>
                 <td>{item.id}</td>
@@ -99,7 +99,12 @@ export default function PostsManagement() {
                   />
                 </td>
               </tr>
-            ))}
+            ))
+          ) : (
+            <p className="font-size-24 pt-5 text-center color-orange ">
+              Không tìm thấy bài viết liên quan nào
+            </p>
+          )}
         </tbody>
       </Table>
       {result.length > 1 && (
