@@ -48,4 +48,15 @@ const SubMenuContainer = styled.ul`
     color: var(--yellow);
     transition: 0.3s ease-in-out;
   }
+  @media (max-width: 992px) {
+    li {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 768px) {
+    li {
+      padding: 8px 0 8px 3px;
+      font-size: 12px;
+    }
+  }
 `;
